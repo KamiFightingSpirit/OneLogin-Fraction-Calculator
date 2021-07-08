@@ -53,7 +53,6 @@ const doMultDiv = (input, pointer, addSubArr, currSum) => {
   } else {
     //Else if our pointer sees a [+, -], if there is a currSum, it should be pushed onto our array to be used in the second pass.
     //If there isn't, then the number found at [pointer-1] as well as our [+, -] math operater, should be pushed onto our array
-    //WE AREN":T RESETTING CURRSUM, IS THIS RIGHT??? CHECK IN THE AM
     currSum
       ? (addSubArr.push(currSum), (currSum = 0))
       : addSubArr.push(input[pointer - 1]);
