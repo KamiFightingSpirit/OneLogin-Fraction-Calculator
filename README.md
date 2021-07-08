@@ -28,7 +28,7 @@ A. Requirements:
 
 B. Instructions:
 
-    i. Fork the repository and create a local copy
+    i. Fork or download the repository and create a local copy
 
     ii. Open bash in the project directory
 
