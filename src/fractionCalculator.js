@@ -14,7 +14,7 @@ function fractionCalculator(nums) {
   const currentSum = calculate(input);
   //Format answer
   const answer = getOutPutFormat(currentSum);
-  console.log("Answer: ", answer);
+  console.log("Answer:", answer);
   return answer;
 }
 
