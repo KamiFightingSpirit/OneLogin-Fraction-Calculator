@@ -1,14 +1,3 @@
-/*
- * 21. In your end notes make sure to talk about how you handeld zero, e.g. not allowing 0/10 or 0_0/10 but are allowing 00000 etc.
- * 22. What if you try feed in a number that is already too big for overflow???
- *
- * Notes:
- * My valid options for data are as follows:
- * 1. 72_72/62
- * 2. 72/52
- * 3. 52
- * 4. * + - /
- */
 const { getOrdinalSuffix } = require("./helperfunctions/getOrdinalSuffix");
 const { RegexPackage } = require("./classes/RegexTests.js");
 const { AssertionError } = require("assert");
