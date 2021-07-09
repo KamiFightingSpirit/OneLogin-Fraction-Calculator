@@ -1,14 +1,11 @@
 const { getOrdinalSuffix } = require("./helperfunctions/getOrdinalSuffix");
 const { RegexPackage } = require("./classes/RegexTests.js");
-const { AssertionError } = require("assert");
 const { SyntaxError } = require("./classes/SyntaxError");
 
 //If no arguments, exit immediately
 const validateData = (input) => {
   if (!input.length) {
-    throw new AssertionError({
-      message: "Kindly provide numbers to calculate",
-    });
+    throw new SyntaxError("Kindly provide numbers to calculate");
   }
 
   const regexTests = new RegexPackage();
