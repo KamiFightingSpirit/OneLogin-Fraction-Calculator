@@ -4,7 +4,7 @@ const { SyntaxError } = require("./classes/SyntaxError");
 
 //If no arguments, exit immediately
 const validateData = (input) => {
-  if (!input.length) {
+  if (!input) {
     throw new SyntaxError("Kindly provide numbers to calculate");
   }
 
