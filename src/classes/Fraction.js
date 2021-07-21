@@ -34,6 +34,7 @@ class Fraction {
     numerator = Math.abs(numerator);
 
     const currentSum = new Fraction(isNeg, numerator, f1.denominator);
+
     return currentSum;
   }
 

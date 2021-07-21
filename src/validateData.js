@@ -65,7 +65,7 @@ const validateData = (input) => {
         `Error: Your input has two or more numbers in a row. The error was found starting with the ${indexOfError} argument: ${currentArg}`
       );
     }
-    //Tests all the regexes, if no of pass then there is an invalid input
+    //Tests all the regexes, if none pass then there is an invalid input
     if (numTests && !operatorRegexTest) {
       throw new SyntaxError(
         `Error: Your input contains a syntax error. The error was found in the ${indexOfError} argument: ${currentArg}`
